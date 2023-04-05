@@ -6,10 +6,10 @@ Linker command line:
   --edf=C:\Program Files\Microchip\xc8\v2.40\pic\dat\20220703182018_en.msgs \
   -cn -h+dist/default/production\StopWatch_Code.production.sym \
   --cmf=dist/default/production\StopWatch_Code.production.cmf -z -Q18F4620 \
-  -oC:\Users\mezoo\AppData\Local\Temp\xcAs7k.4 --defsym=__MPLAB_BUILD=1 \
+  -oC:\Users\mezoo\AppData\Local\Temp\xcAs55g.5 --defsym=__MPLAB_BUILD=1 \
   --fixupoverflow=error \
   -Mdist/default/production/StopWatch_Code.production.map \
-  --md=C:\Users\mezoo\AppData\Local\Temp\xcAs7k.dat -E1 -ver=XC8 Compiler \
+  --md=C:\Users\mezoo\AppData\Local\Temp\xcAs55g.dat -E1 -ver=XC8 Compiler \
   --acfsm=1493 -ACODE=00h-0FFFFh -ACONST=00h-0FFFFh \
   -ASMALLCONST=01000h-010FFhx240 -AMEDIUMCONST=01000h-0FFFFh \
   -ACOMRAM=01h-07Fh -AABS1=00h-0F7Fh -ABIGRAM=01h-0F7Fh \
@@ -28,7 +28,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\mezoo\AppData\Local\Temp\xcAs7k.o \
+  C:\Users\mezoo\AppData\Local\Temp\xcAs55g.o \
   dist/default/production\StopWatch_Code.production.o 
 
 Object code version is 3.11
@@ -38,7 +38,7 @@ Machine type is 18F4620
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\mezoo\AppData\Local\Temp\xcAs7k.o
+C:\Users\mezoo\AppData\Local\Temp\xcAs55g.o
                 idloc                            200000   200000        8        0       5
                 config                           300000   300000        E        0       4
                 init                                  E        E        4        4       0

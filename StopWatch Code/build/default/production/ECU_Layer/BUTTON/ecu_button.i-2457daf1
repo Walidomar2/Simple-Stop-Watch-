@@ -1,4 +1,4 @@
-# 1 "appliction.c"
+# 1 "ECU_Layer/BUTTON/ecu_button.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 288 "<built-in>" 3
@@ -6,7 +6,7 @@
 # 1 "<built-in>" 2
 # 1 "C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
-# 1 "appliction.c" 2
+# 1 "ECU_Layer/BUTTON/ecu_button.c" 2
 
 
 
@@ -14,14 +14,10 @@
 
 
 
-# 1 "./application.h" 1
-# 11 "./application.h"
-# 1 "./ECU_Layer/ecu_devices_init.h" 1
-# 13 "./ECU_Layer/ecu_devices_init.h"
-# 1 "./ECU_Layer/BUTTON/ecu_button.h" 1
-# 12 "./ECU_Layer/BUTTON/ecu_button.h"
-# 1 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/hal_gpio.h" 1
-# 13 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/hal_gpio.h"
+# 1 "ECU_Layer/BUTTON/ecu_button.h" 1
+# 12 "ECU_Layer/BUTTON/ecu_button.h"
+# 1 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/hal_gpio.h" 1
+# 13 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/hal_gpio.h"
 # 1 "C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\\pic\\include\\proc\\../proc/pic18f4620.h" 1 3
 # 45 "C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\\pic\\include\\proc\\../proc/pic18f4620.h" 3
 # 1 "C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\\pic\\include\\__at.h" 1 3
@@ -4234,12 +4230,12 @@ extern volatile __bit nWR __attribute__((address(0x7C21)));
 
 
 extern volatile __bit nWRITE __attribute__((address(0x7E3A)));
-# 13 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/hal_gpio.h" 2
+# 13 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/hal_gpio.h" 2
 
-# 1 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../mcal_std_types.h" 1
-# 13 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../mcal_std_types.h"
-# 1 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../std_libraries.h" 1
-# 10 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../std_libraries.h"
+# 1 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../mcal_std_types.h" 1
+# 13 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../mcal_std_types.h"
+# 1 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../std_libraries.h" 1
+# 10 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../std_libraries.h"
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.40\\pic\\include\\c99\\stdio.h" 1 3
 
 
@@ -4403,7 +4399,7 @@ char *ctermid(char *);
 
 
 char *tempnam(const char *, const char *);
-# 10 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../std_libraries.h" 2
+# 10 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../std_libraries.h" 2
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.40\\pic\\include\\c99\\stdlib.h" 1 3
 # 21 "C:\\Program Files\\Microchip\\xc8\\v2.40\\pic\\include\\c99\\stdlib.h" 3
@@ -4468,7 +4464,7 @@ typedef struct { unsigned int quot, rem; } udiv_t;
 typedef struct { unsigned long quot, rem; } uldiv_t;
 udiv_t udiv (unsigned int, unsigned int);
 uldiv_t uldiv (unsigned long, unsigned long);
-# 11 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../std_libraries.h" 2
+# 11 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../std_libraries.h" 2
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.40\\pic\\include\\c99\\string.h" 1 3
 # 25 "C:\\Program Files\\Microchip\\xc8\\v2.40\\pic\\include\\c99\\string.h" 3
@@ -4525,11 +4521,11 @@ size_t strxfrm_l (char *restrict, const char *restrict, size_t, locale_t);
 
 
 void *memccpy (void *restrict, const void *restrict, int, size_t);
-# 12 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../std_libraries.h" 2
-# 13 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../mcal_std_types.h" 2
+# 12 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../std_libraries.h" 2
+# 13 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../mcal_std_types.h" 2
 
-# 1 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../compiler.h" 1
-# 11 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../compiler.h"
+# 1 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../compiler.h" 1
+# 11 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../compiler.h"
 # 1 "C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\\pic\\include\\xc.h" 1 3
 # 18 "C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\\pic\\include\\xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -4691,8 +4687,8 @@ __attribute__((__unsupported__("The " "Write_b_eep" " routine is no longer suppo
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 34 "C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\\pic\\include\\xc.h" 2 3
-# 11 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../compiler.h" 2
-# 14 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../mcal_std_types.h" 2
+# 11 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../compiler.h" 2
+# 14 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../mcal_std_types.h" 2
 
 
 
@@ -4705,10 +4701,10 @@ typedef signed short sint16;
 typedef signed int sint32;
 
 typedef uint8 Std_ReturnType ;
-# 14 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/hal_gpio.h" 2
+# 14 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/hal_gpio.h" 2
 
-# 1 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../device_config.h" 1
-# 15 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/hal_gpio.h" 2
+# 1 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/../device_config.h" 1
+# 15 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/hal_gpio.h" 2
 
 
 
@@ -4750,7 +4746,7 @@ typedef struct{
     uint8 Logic :1;
 
 }Pin_Config_t;
-# 75 "./ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/hal_gpio.h"
+# 75 "ECU_Layer/BUTTON/../../MCAL_Layer/GPIO_Module/hal_gpio.h"
 Std_ReturnType gpio_pin_direction_init(const Pin_Config_t *_pin_config);
 Std_ReturnType gpio_pin_init(const Pin_Config_t *_pin_config);
 Std_ReturnType gpio_pin_get_direction_status(const Pin_Config_t *_pin_config ,Direction_t *dir_status);
@@ -4763,7 +4759,7 @@ Std_ReturnType gpio_port_get_direction_status(Port_Index_t port ,uint8 *dir_stat
 Std_ReturnType gpio_port_write_logic(Port_Index_t port , uint8 logic);
 Std_ReturnType gpio_port_read_logic(Port_Index_t port , uint8 *logic);
 Std_ReturnType gpio_port_toggle(Port_Index_t port);
-# 12 "./ECU_Layer/BUTTON/ecu_button.h" 2
+# 12 "ECU_Layer/BUTTON/ecu_button.h" 2
 
 
 
@@ -4792,194 +4788,63 @@ typedef struct {
 
 Std_ReturnType button_init(const button_config_t *btn);
 Std_ReturnType button_read(const button_config_t *btn , button_state_t *state);
-# 13 "./ECU_Layer/ecu_devices_init.h" 2
-
-# 1 "./ECU_Layer/SEVEN_Segment/ecu_seven_segment.h" 1
-# 16 "./ECU_Layer/SEVEN_Segment/ecu_seven_segment.h"
-typedef enum{
-    SEGMENT_COMMON_ANODE,
-    SEGMENT_COMMON_CATHODE
-
-}segment_type_t;
-
-typedef struct{
-    Pin_Config_t segment_pins[4];
-    segment_type_t segment_type ;
-
-}segment_config_t;
+# 8 "ECU_Layer/BUTTON/ecu_button.c" 2
 
 
+Std_ReturnType button_init(const button_config_t *btn){
 
-Std_ReturnType seven_segment_init(const segment_config_t *my_segment);
-Std_ReturnType seven_segment_write_number(const segment_config_t *my_segment ,uint8 number);
-# 14 "./ECU_Layer/ecu_devices_init.h" 2
-# 11 "./application.h" 2
-
-# 1 "./MCAL_Layer/INTERRUPT/mcal_external_interrupt.h" 1
-# 12 "./MCAL_Layer/INTERRUPT/mcal_external_interrupt.h"
-# 1 "./MCAL_Layer/INTERRUPT/mcal_interrupt_config.h" 1
-# 47 "./MCAL_Layer/INTERRUPT/mcal_interrupt_config.h"
-typedef enum{
-    LOW_PRIORITY =0,
-    HIGH_PRIORITY
-}interrupt_priority;
-# 12 "./MCAL_Layer/INTERRUPT/mcal_external_interrupt.h" 2
-# 54 "./MCAL_Layer/INTERRUPT/mcal_external_interrupt.h"
-typedef enum {
-    INTERRUPT_FALLING_EDGE =0,
-    INTERRUPT_RISING_EDGE
-}interrupt_edge;
-
-typedef struct {
-    void (* EXT_InterruptHandler)(void);
-    Pin_Config_t INTx_pin;
-    interrupt_edge edge;
-    interrupt_priority priority;
-}interrupt_INTx_t;
-
-typedef struct {
-    void (* EXT_InterruptHandlerHigh)(void);
-    void (* EXT_InterruptHandlerLow)(void);
-    Pin_Config_t RBx_pin;
-    interrupt_priority priority;
-}interrupt_RBx_t;
-
-
-Std_ReturnType Interrupt_INTx_Enable(const interrupt_INTx_t *object);
-Std_ReturnType Interrupt_INTx_Disable(const interrupt_INTx_t *object);
-Std_ReturnType Interrupt_RBx_Enable(const interrupt_RBx_t *object);
-Std_ReturnType Interrupt_RBx_Disable(const interrupt_RBx_t *object);
-# 12 "./application.h" 2
-# 8 "appliction.c" 2
-
-
-Std_ReturnType ret=(Std_ReturnType)0x00;
-
-
-
-uint8 miniSeconds=0;
-uint8 seconds=0;
-uint8 minutes=0;
-uint8 counter=0;
-uint8 watchFlag=0;
-
-
-void StopWatchReset_ISR(void){
-    miniSeconds = 0;
-    seconds = 0;
-    minutes =0;
-    counter=0;
-    watchFlag=0;
-}
-
-void ContinuePause_ISR(void){
-
-    if(0==watchFlag){
-        watchFlag=1;
+    Std_ReturnType ret_value =(Std_ReturnType)0x01;
+    if(((void*)0) == btn)
+    {
+        ret_value =(Std_ReturnType)0x00;
     }
     else
     {
-       watchFlag = 0;
+       ret_value = gpio_pin_init(&(btn->button_pin));
+
     }
+
+    return ret_value ;
 }
 
+Std_ReturnType button_read(const button_config_t *btn , button_state_t *btn_status){
 
-interrupt_INTx_t int0_obj = {
-  .EXT_InterruptHandler =StopWatchReset_ISR,
-  .edge = INTERRUPT_RISING_EDGE,
-  .INTx_pin.Port = PORTB_INDEX,
-  .INTx_pin.Direction=INPUT,
-  .INTx_pin.Pin=PIN0,
-  .INTx_pin.Logic=LOW
-};
+     Std_ReturnType ret_value =(Std_ReturnType)0x01;
+     *btn_status = BUTTON_RELEASED;
+     Logic_t button_logic_status = LOW ;
 
-interrupt_INTx_t int1_obj = {
-  .EXT_InterruptHandler =ContinuePause_ISR,
-  .edge = INTERRUPT_RISING_EDGE,
-  .INTx_pin.Port = PORTB_INDEX,
-  .INTx_pin.Direction=INPUT,
-  .INTx_pin.Pin=PIN1,
-  .INTx_pin.Logic=LOW
-};
-
-int main(){
-    Interrupt_INTx_Enable(&int0_obj);
-    Interrupt_INTx_Enable(&int1_obj);
-
-    ret=gpio_port_init(PORTC_INDEX,0xF0);
-    ret=gpio_port_init(PORTD_INDEX,0x00);
-    while(1){
-
-        if(1==watchFlag)
-        {
-            while(watchFlag)
-            {
-            gpio_port_write_logic(PORTD_INDEX,0x3B);
-            gpio_port_write_logic(PORTC_INDEX,((uint8)seconds/10));
-            _delay((unsigned long)((2500)*(8000000UL/4000000.0)));
-            gpio_port_write_logic(PORTD_INDEX,0x37);
-            gpio_port_write_logic(PORTC_INDEX,((uint8)seconds%10));
-            _delay((unsigned long)((2500)*(8000000UL/4000000.0)));
-
-            gpio_port_write_logic(PORTD_INDEX,0x2F);
-            gpio_port_write_logic(PORTC_INDEX,((uint8)miniSeconds/10));
-            _delay((unsigned long)((2500)*(8000000UL/4000000.0)));
-            gpio_port_write_logic(PORTD_INDEX,0x1F);
-            gpio_port_write_logic(PORTC_INDEX,((uint8)miniSeconds%10));
-            _delay((unsigned long)((2500)*(8000000UL/4000000.0)));
-
-            gpio_port_write_logic(PORTD_INDEX,0x3E);
-            gpio_port_write_logic(PORTC_INDEX,((uint8)minutes/10));
-            _delay((unsigned long)((2500)*(8000000UL/4000000.0)));
-            gpio_port_write_logic(PORTD_INDEX,0x3D);
-            gpio_port_write_logic(PORTC_INDEX,((uint8)minutes%10));
-            _delay((unsigned long)((2500)*(8000000UL/4000000.0)));
-            }
-        }
-
-        if(0==watchFlag){
-            for(counter=0;counter<2;counter++){
-            gpio_port_write_logic(PORTD_INDEX,0x3B);
-            gpio_port_write_logic(PORTC_INDEX,((uint8)seconds/10));
-            _delay((unsigned long)((4000)*(8000000UL/4000000.0)));
-            gpio_port_write_logic(PORTD_INDEX,0x37);
-            gpio_port_write_logic(PORTC_INDEX,((uint8)seconds%10));
-            _delay((unsigned long)((4000)*(8000000UL/4000000.0)));
-
-            gpio_port_write_logic(PORTD_INDEX,0x2F);
-            gpio_port_write_logic(PORTC_INDEX,((uint8)miniSeconds/10));
-            _delay((unsigned long)((4000)*(8000000UL/4000000.0)));
-            gpio_port_write_logic(PORTD_INDEX,0x1F);
-            gpio_port_write_logic(PORTC_INDEX,((uint8)miniSeconds%10));
-            _delay((unsigned long)((4000)*(8000000UL/4000000.0)));
-
-            gpio_port_write_logic(PORTD_INDEX,0x3E);
-            gpio_port_write_logic(PORTC_INDEX,((uint8)minutes/10));
-            _delay((unsigned long)((4000)*(8000000UL/4000000.0)));
-            gpio_port_write_logic(PORTD_INDEX,0x3D);
-            gpio_port_write_logic(PORTC_INDEX,((uint8)minutes%10));
-            _delay((unsigned long)((4000)*(8000000UL/4000000.0)));
-            }
-
-            miniSeconds+=5;
-            if(90 < miniSeconds)
-            {
-                seconds++;
-                miniSeconds= 0;
-            }
-
-            if(60 == seconds)
-            {
-                minutes++;
-                seconds= 0;
-            }
-
-            if(60 == minutes)
-            {
-                minutes=0;
-            }
-
-        }
+    if(((void*)0) == btn || ((void*)0) == btn_status )
+    {
+        ret_value =(Std_ReturnType)0x00;
     }
-    return (0);
+    else
+    {
+        gpio_pin_read_logic(&(btn->button_pin),&button_logic_status);
+
+        if(BUTTON_ACTIVE_HIGH == btn->button_connection)
+        {
+            if(HIGH == button_logic_status)
+            {
+                *btn_status = BUTTON_PRESSED;
+            }
+            else
+            {
+                *btn_status = BUTTON_RELEASED;
+            }
+        }
+        else if(BUTTON_ACTIVE_LOW == btn->button_connection)
+        {
+            if(HIGH == button_logic_status)
+            {
+                *btn_status = BUTTON_RELEASED;
+            }
+            else
+            {
+                *btn_status = BUTTON_PRESSED;
+            }
+        }
+        else{ }
+    }
+
+    return ret_value ;
 }

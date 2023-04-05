@@ -563,8 +563,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;appliction.c: 97:             gpio_port_write_logic(PORTC_INDEX,((uint8)seconds/10));
 [e ( _gpio_port_write_logic (2 , . `E2983 2 -> / -> _seconds `i -> 10 `i `uc ]
 "98
-[; ;appliction.c: 98:             _delay((unsigned long)((2500)*(8000000UL/4000000.0)));
-[e ( __delay (1 -> * -> -> 2500 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
+[; ;appliction.c: 98:             _delay((unsigned long)((4000)*(8000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 4000 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
 "99
 [; ;appliction.c: 99:             gpio_port_write_logic(PORTD_INDEX,0x37);
 [e ( _gpio_port_write_logic (2 , . `E2983 3 -> -> 55 `i `uc ]
@@ -572,8 +572,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;appliction.c: 100:             gpio_port_write_logic(PORTC_INDEX,((uint8)seconds%10));
 [e ( _gpio_port_write_logic (2 , . `E2983 2 -> % -> _seconds `i -> 10 `i `uc ]
 "101
-[; ;appliction.c: 101:             _delay((unsigned long)((2500)*(8000000UL/4000000.0)));
-[e ( __delay (1 -> * -> -> 2500 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
+[; ;appliction.c: 101:             _delay((unsigned long)((4000)*(8000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 4000 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
 "103
 [; ;appliction.c: 103:             gpio_port_write_logic(PORTD_INDEX,0x2F);
 [e ( _gpio_port_write_logic (2 , . `E2983 3 -> -> 47 `i `uc ]
@@ -581,8 +581,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;appliction.c: 104:             gpio_port_write_logic(PORTC_INDEX,((uint8)miniSeconds/10));
 [e ( _gpio_port_write_logic (2 , . `E2983 2 -> / -> _miniSeconds `i -> 10 `i `uc ]
 "105
-[; ;appliction.c: 105:             _delay((unsigned long)((2500)*(8000000UL/4000000.0)));
-[e ( __delay (1 -> * -> -> 2500 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
+[; ;appliction.c: 105:             _delay((unsigned long)((4000)*(8000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 4000 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
 "106
 [; ;appliction.c: 106:             gpio_port_write_logic(PORTD_INDEX,0x1F);
 [e ( _gpio_port_write_logic (2 , . `E2983 3 -> -> 31 `i `uc ]
@@ -590,8 +590,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;appliction.c: 107:             gpio_port_write_logic(PORTC_INDEX,((uint8)miniSeconds%10));
 [e ( _gpio_port_write_logic (2 , . `E2983 2 -> % -> _miniSeconds `i -> 10 `i `uc ]
 "108
-[; ;appliction.c: 108:             _delay((unsigned long)((2500)*(8000000UL/4000000.0)));
-[e ( __delay (1 -> * -> -> 2500 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
+[; ;appliction.c: 108:             _delay((unsigned long)((4000)*(8000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 4000 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
 "110
 [; ;appliction.c: 110:             gpio_port_write_logic(PORTD_INDEX,0x3E);
 [e ( _gpio_port_write_logic (2 , . `E2983 3 -> -> 62 `i `uc ]
@@ -599,8 +599,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;appliction.c: 111:             gpio_port_write_logic(PORTC_INDEX,((uint8)minutes/10));
 [e ( _gpio_port_write_logic (2 , . `E2983 2 -> / -> _minutes `i -> 10 `i `uc ]
 "112
-[; ;appliction.c: 112:             _delay((unsigned long)((2500)*(8000000UL/4000000.0)));
-[e ( __delay (1 -> * -> -> 2500 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
+[; ;appliction.c: 112:             _delay((unsigned long)((4000)*(8000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 4000 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
 "113
 [; ;appliction.c: 113:             gpio_port_write_logic(PORTD_INDEX,0x3D);
 [e ( _gpio_port_write_logic (2 , . `E2983 3 -> -> 61 `i `uc ]
@@ -608,8 +608,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;appliction.c: 114:             gpio_port_write_logic(PORTC_INDEX,((uint8)minutes%10));
 [e ( _gpio_port_write_logic (2 , . `E2983 2 -> % -> _minutes `i -> 10 `i `uc ]
 "115
-[; ;appliction.c: 115:             _delay((unsigned long)((2500)*(8000000UL/4000000.0)));
-[e ( __delay (1 -> * -> -> 2500 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
+[; ;appliction.c: 115:             _delay((unsigned long)((4000)*(8000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 4000 `i `d / -> -> 8000000 `ul `d .4000000.0 `ul ]
 "116
 [; ;appliction.c: 116:             }
 }
@@ -618,11 +618,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 292 ]
 }
 "118
-[; ;appliction.c: 118:             miniSeconds++;
-[e ++ _miniSeconds -> -> 1 `i `uc ]
+[; ;appliction.c: 118:             miniSeconds+=5;
+[e =+ _miniSeconds -> -> 5 `i `uc ]
 "119
-[; ;appliction.c: 119:             if(90 == miniSeconds)
-[e $ ! == -> 90 `i -> _miniSeconds `i 294  ]
+[; ;appliction.c: 119:             if(90 < miniSeconds)
+[e $ ! < -> 90 `i -> _miniSeconds `i 294  ]
 "120
 [; ;appliction.c: 120:             {
 {

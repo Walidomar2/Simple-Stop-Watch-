@@ -95,28 +95,28 @@ int main(){
             for(counter=0;counter<2;counter++){    
             gpio_port_write_logic(PORTD_INDEX,0x3B);  // 0011 1011  
             gpio_port_write_logic(PORTC_INDEX,((uint8)seconds/10));
-            __delay_us(2500);
+            __delay_us(4000);
             gpio_port_write_logic(PORTD_INDEX,0x37);   // 0011 0111
             gpio_port_write_logic(PORTC_INDEX,((uint8)seconds%10));
-            __delay_us(2500);
+            __delay_us(4000);
 
             gpio_port_write_logic(PORTD_INDEX,0x2F);    // 0010 1111
             gpio_port_write_logic(PORTC_INDEX,((uint8)miniSeconds/10));
-            __delay_us(2500);
+            __delay_us(4000);
             gpio_port_write_logic(PORTD_INDEX,0x1F);     // 0001 1111 
             gpio_port_write_logic(PORTC_INDEX,((uint8)miniSeconds%10));
-            __delay_us(2500);
+            __delay_us(4000);
 
             gpio_port_write_logic(PORTD_INDEX,0x3E);   //0011 1110
             gpio_port_write_logic(PORTC_INDEX,((uint8)minutes/10));
-            __delay_us(2500);
+            __delay_us(4000);
             gpio_port_write_logic(PORTD_INDEX,0x3D);  //0011  1101
             gpio_port_write_logic(PORTC_INDEX,((uint8)minutes%10));
-            __delay_us(2500);  
+            __delay_us(4000);  
             }
 
-            miniSeconds++;
-            if(90 == miniSeconds)
+            miniSeconds+=5;
+            if(90 < miniSeconds)
             {
                 seconds++;
                 miniSeconds= 0;
