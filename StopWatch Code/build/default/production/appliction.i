@@ -4968,6 +4968,12 @@ int main(){
                 miniSeconds= 0;
             }
 
+            if(60 == seconds)
+            {
+                minutes++;
+                seconds= 0;
+            }
+
             if(60 == minutes)
             {
                 minutes=0;

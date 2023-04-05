@@ -637,33 +637,49 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 294 ]
 "125
-[; ;appliction.c: 125:             if(60 == minutes)
-[e $ ! == -> 60 `i -> _minutes `i 295  ]
+[; ;appliction.c: 125:             if(60 == seconds)
+[e $ ! == -> 60 `i -> _seconds `i 295  ]
 "126
 [; ;appliction.c: 126:             {
 {
 "127
-[; ;appliction.c: 127:                 minutes=0;
-[e = _minutes -> -> 0 `i `uc ]
+[; ;appliction.c: 127:                 minutes++;
+[e ++ _minutes -> -> 1 `i `uc ]
 "128
-[; ;appliction.c: 128:             }
+[; ;appliction.c: 128:                 seconds= 0;
+[e = _seconds -> -> 0 `i `uc ]
+"129
+[; ;appliction.c: 129:             }
 }
 [e :U 295 ]
-"130
-[; ;appliction.c: 130:         }
+"131
+[; ;appliction.c: 131:             if(60 == minutes)
+[e $ ! == -> 60 `i -> _minutes `i 296  ]
+"132
+[; ;appliction.c: 132:             {
+{
+"133
+[; ;appliction.c: 133:                 minutes=0;
+[e = _minutes -> -> 0 `i `uc ]
+"134
+[; ;appliction.c: 134:             }
+}
+[e :U 296 ]
+"136
+[; ;appliction.c: 136:         }
 }
 [e :U 290 ]
-"131
-[; ;appliction.c: 131:     }
+"137
+[; ;appliction.c: 137:     }
 }
 [e :U 283 ]
 [e $U 284  ]
 [e :U 285 ]
-"132
-[; ;appliction.c: 132:     return (0);
+"138
+[; ;appliction.c: 138:     return (0);
 [e ) -> 0 `i ]
 [e $UE 282  ]
-"133
-[; ;appliction.c: 133: }
+"139
+[; ;appliction.c: 139: }
 [e :UE 282 ]
 }

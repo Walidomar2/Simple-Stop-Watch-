@@ -121,6 +121,12 @@ int main(){
                 seconds++;
                 miniSeconds= 0;
             }
+            
+            if(60 == seconds)
+            {
+                minutes++;
+                seconds= 0;
+            }
 
             if(60 == minutes)
             {
